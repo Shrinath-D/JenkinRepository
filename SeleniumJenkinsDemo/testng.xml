@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.SeleniumJenkins.SeleniumJenkinsDemo.ExtentReport"/>
+      <class name="com.SeleniumJenkins.SeleniumJenkinsDemo.NewTest"/>
+      <class name="com.SeleniumJenkins.SeleniumJenkinsDemo.AppTest"/>
+      <class name="com.SeleniumJenkins.SeleniumJenkinsDemo.Test2"/>
+      <class name="com.SeleniumJenkins.SeleniumJenkinsDemo.LoginWithPageFactory"/>
+      <class name="com.SeleniumJenkins.SeleniumJenkinsDemo.ExcelCode"/>
+      <class name="com.SeleniumJenkins.SeleniumJenkinsDemo.POMLogin"/>
+      <class name="com.SeleniumJenkins.SeleniumJenkinsDemo.ListenerDemo"/>
+      <class name="com.SeleniumJenkins.SeleniumJenkinsDemo.Excel1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
